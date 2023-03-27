@@ -25,7 +25,7 @@ public class Libro {
     private int prestados;
     
     /**
-     * nueva variable
+     * nueva variable añadida
      */
     
     private String nuevo = "Nuevo";
