@@ -24,6 +24,10 @@ public class Libro {
      */
     private int prestados;
     
+    /**
+     * nueva variable
+     */
+    
     private String nuevo = "Nuevo";
 
    /**
