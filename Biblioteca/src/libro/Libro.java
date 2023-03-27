@@ -4,6 +4,7 @@ package libro;
  * Clase para guardar la informacion de cada uno de los libros de una biblioteca
  * @author DAM
  * @version 1.0
+ *cambio de version 1.1
  */
 
 public class Libro {
@@ -25,7 +26,7 @@ public class Libro {
     private int prestados;
     
     /**
-     * nueva variable aÒadida
+     * nueva variable a√±adida
      */
     
     private String nuevo = "Nuevo";
@@ -110,7 +111,7 @@ public class Libro {
      * Metodo booleano para comprobar si el numero de prestamos supera al de ejemplares totales
      * @return false: el numero de prestamos es mayor que el de ejemplares
      * 		   true: se devuelve el valor cuando el numero de prestamos es menor que el de ejemplares.
-     * 				 Se suma uno m·s al valor de la variable de prestamos.
+     * 				 Se suma uno m√°s al valor de la variable de prestamos.
      */
     public boolean prestamo() {
         boolean prestado = true;
@@ -138,7 +139,7 @@ public class Libro {
         return devuelto;
     }
     /**
-     * MÈtodo toString para mostrar todos los datos de la clase libro concatenados
+     * M√©todo toString para mostrar todos los datos de la clase libro concatenados
      * @return devuelve todos los valores concatenados
      */
     @Override
