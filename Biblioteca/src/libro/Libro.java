@@ -23,6 +23,8 @@ public class Libro {
      * Atributo para informar del numero de ejemplares prestados
      */
     private int prestados;
+    
+    private String nuevo = "Nuevo";
 
    /**
     * Constructor vacio de la clase Libro
